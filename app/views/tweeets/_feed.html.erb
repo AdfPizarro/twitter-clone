@@ -6,11 +6,9 @@
      </p>
     </figure>
     <div class="media-content">
-     <% render "tweeets/form" %>
+     <%= render "tweeets/form" %>
     </div>
   </article>
-</div>
-
 <% @tweeets.each do | tweeet | %>
   <div class="box">
    <article class="media">
@@ -35,9 +33,11 @@
           <% end %>
           <%= link_to tweeet, method: :delete, data: {confirm: "Are you sure you want to delete this tweet?"} do %>
             <span class="icon"><i class="fa fa-trash-o" aria-hidden="true"></i></span>
-            <% end %>
+        <% end %>
       </div>
-      </article>
-      </div>
-     <% end %>
+     </article>
+     </div>
+  </div>
+  <% end %>
 
+     
