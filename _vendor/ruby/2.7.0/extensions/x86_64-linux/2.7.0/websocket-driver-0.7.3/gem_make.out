@@ -1,0 +1,15 @@
+current directory: /home/namdy/Desktop/Microverse Project/twitter-clone/_vendor/ruby/2.7.0/gems/websocket-driver-0.7.3/ext/websocket-driver
+/home/namdy/.rbenv/versions/2.7.0/bin/ruby -I /home/namdy/.rbenv/versions/2.7.0/lib/ruby/2.7.0 -r ./siteconf20200810-28884-1qwbn7f.rb extconf.rb
+creating Makefile
+
+current directory: /home/namdy/Desktop/Microverse Project/twitter-clone/_vendor/ruby/2.7.0/gems/websocket-driver-0.7.3/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /home/namdy/Desktop/Microverse Project/twitter-clone/_vendor/ruby/2.7.0/gems/websocket-driver-0.7.3/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /home/namdy/Desktop/Microverse Project/twitter-clone/_vendor/ruby/2.7.0/gems/websocket-driver-0.7.3/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20200810-28884-18gzbz3

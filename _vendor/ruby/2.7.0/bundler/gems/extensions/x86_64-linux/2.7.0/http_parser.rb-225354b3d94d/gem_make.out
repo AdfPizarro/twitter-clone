@@ -1,0 +1,26 @@
+current directory: /home/namdy/Desktop/Microverse Project/twitter-clone/_vendor/ruby/2.7.0/bundler/gems/http_parser.rb-225354b3d94d/ext/ruby_http_parser
+/home/namdy/.rbenv/versions/2.7.0/bin/ruby -I /home/namdy/.rbenv/versions/2.7.0/lib/ruby/2.7.0 -r ./siteconf20200810-5484-bp5f8z.rb extconf.rb
+creating Makefile
+
+current directory: /home/namdy/Desktop/Microverse Project/twitter-clone/_vendor/ruby/2.7.0/bundler/gems/http_parser.rb-225354b3d94d/ext/ruby_http_parser
+make "DESTDIR=" clean
+
+current directory: /home/namdy/Desktop/Microverse Project/twitter-clone/_vendor/ruby/2.7.0/bundler/gems/http_parser.rb-225354b3d94d/ext/ruby_http_parser
+make "DESTDIR="
+compiling ruby_http_parser.c
+ruby_http_parser.c: In function 'Parser_execute':
+ruby_http_parser.c:349:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (nparsed < len)
+                 ^
+ruby_http_parser.c: At top level:
+cc1: warning: unrecognized command line option '-Wno-tautological-compare'
+cc1: warning: unrecognized command line option '-Wno-self-assign'
+cc1: warning: unrecognized command line option '-Wno-parentheses-equality'
+cc1: warning: unrecognized command line option '-Wno-constant-logical-operand'
+cc1: warning: unrecognized command line option '-Wno-cast-function-type'
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.so
+
+current directory: /home/namdy/Desktop/Microverse Project/twitter-clone/_vendor/ruby/2.7.0/bundler/gems/http_parser.rb-225354b3d94d/ext/ruby_http_parser
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 ruby_http_parser.so ./.gem.20200810-5484-19s2bs1

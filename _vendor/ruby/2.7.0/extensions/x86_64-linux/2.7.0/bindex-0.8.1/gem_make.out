@@ -1,0 +1,15 @@
+current directory: /home/namdy/Desktop/Microverse Project/twitter-clone/_vendor/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+/home/namdy/.rbenv/versions/2.7.0/bin/ruby -I /home/namdy/.rbenv/versions/2.7.0/lib/ruby/2.7.0 -r ./siteconf20200810-28884-1djcdqw.rb extconf.rb
+creating Makefile
+
+current directory: /home/namdy/Desktop/Microverse Project/twitter-clone/_vendor/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /home/namdy/Desktop/Microverse Project/twitter-clone/_vendor/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /home/namdy/Desktop/Microverse Project/twitter-clone/_vendor/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20200810-28884-1ad09d0/skiptrace/internal

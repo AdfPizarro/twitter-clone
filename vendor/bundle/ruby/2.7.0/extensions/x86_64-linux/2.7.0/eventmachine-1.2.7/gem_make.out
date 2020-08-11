@@ -1,0 +1,16 @@
+current directory: /home/namdy/Desktop/Microverse Project/twitter-clone/vendor/bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/home/namdy/.rbenv/versions/2.7.0/bin/ruby -I /home/namdy/.rbenv/versions/2.7.0/lib/ruby/2.7.0 -r ./siteconf20200810-27179-13ov17.rb extconf.rb
+creating Makefile
+
+current directory: /home/namdy/Desktop/Microverse Project/twitter-clone/vendor/bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" clean
+
+current directory: /home/namdy/Desktop/Microverse Project/twitter-clone/vendor/bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR="
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.so
+
+current directory: /home/namdy/Desktop/Microverse Project/twitter-clone/vendor/bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 fastfilereaderext.so ./.gem.20200810-27179-18tgjos

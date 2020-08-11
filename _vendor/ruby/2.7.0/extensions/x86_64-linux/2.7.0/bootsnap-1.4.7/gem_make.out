@@ -1,0 +1,25 @@
+current directory: /home/namdy/Desktop/Microverse Project/twitter-clone/_vendor/ruby/2.7.0/gems/bootsnap-1.4.7/ext/bootsnap
+/home/namdy/.rbenv/versions/2.7.0/bin/ruby -I /home/namdy/.rbenv/versions/2.7.0/lib/ruby/2.7.0 -r ./siteconf20200810-28884-4agks3.rb extconf.rb
+creating Makefile
+
+current directory: /home/namdy/Desktop/Microverse Project/twitter-clone/_vendor/ruby/2.7.0/gems/bootsnap-1.4.7/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /home/namdy/Desktop/Microverse Project/twitter-clone/_vendor/ruby/2.7.0/gems/bootsnap-1.4.7/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+bootsnap.c: In function 'bs_cache_path':
+bootsnap.c:274:24: warning: format '%llx' expects argument of type 'long long unsigned int', but argument 5 has type 'uint64_t {aka long unsigned int}' [-Wformat=]
+   sprintf(*cache_path, "%s/%02x/%014llx", cachedir, first_byte, remainder);
+                        ^
+bootsnap.c: At top level:
+cc1: warning: unrecognized command line option '-Wno-tautological-compare'
+cc1: warning: unrecognized command line option '-Wno-self-assign'
+cc1: warning: unrecognized command line option '-Wno-parentheses-equality'
+cc1: warning: unrecognized command line option '-Wno-constant-logical-operand'
+cc1: warning: unrecognized command line option '-Wno-cast-function-type'
+linking shared-object bootsnap/bootsnap.so
+
+current directory: /home/namdy/Desktop/Microverse Project/twitter-clone/_vendor/ruby/2.7.0/gems/bootsnap-1.4.7/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20200810-28884-111pz80/bootsnap
